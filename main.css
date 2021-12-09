@@ -1,7 +1,6 @@
 #banner {
         background: silver;
-        color: black;
-        font: timberline;
+        font: "timberline", "utopia", "trebuchet";
 }
 header, 
 nav, 
