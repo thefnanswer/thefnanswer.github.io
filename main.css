@@ -1,9 +1,13 @@
 #banner {
         background: silver;
-        font: "timberline", "utopia", "trebuchet";
+        color: black;
+        font-weight: bold;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 header, 
 nav, 
 footer {
    text-align: center;
+   color: black;
+
 }
