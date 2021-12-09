@@ -1,10 +1,10 @@
-header {
-        background:  black;
-        text-align: center;
+#banner {
+        background: silver;
+        color: black;
+        font: timberline;
 }
-nav {
-    text-align: center;
-}
+header, 
+nav, 
 footer {
-    text-align: center;
+   text-align: center;
 }
