@@ -6,13 +6,13 @@
         font-size: 2em;
 }
 body {
-     background-color: darkgreen;
+     background-color: whitesmoke;
 }
 main {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-align: left;
      text-indent: 1em;
-     color: white;
+     color: black;
 }
 header, 
 nav, 
@@ -21,6 +21,6 @@ li,
 a {
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: black;
   list-style: none;
 }
