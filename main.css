@@ -7,6 +7,7 @@
 }
 body {
      background-color: whitesmoke;
+     font: antialiased;
 }
 main {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
