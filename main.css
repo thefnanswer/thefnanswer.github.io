@@ -6,10 +6,17 @@
         font-size: 2em;
 }
 
+#main {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header, 
 nav, 
 footer,
+li,
 a {
    text-align: center;
    text-decoration: none;
+   color: black;
+   list-style: none;
 }
