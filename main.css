@@ -8,6 +8,8 @@
 
 header, 
 nav, 
-footer {
+footer,
+a {
    text-align: center;
+   text-decoration: none;
 }
