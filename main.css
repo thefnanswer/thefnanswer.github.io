@@ -3,15 +3,11 @@
         color: black;
         font-weight: bold;
         font-family: Helvetica, Arial, sans-serif;
+        font-size: 2em;
 }
 
 header, 
 nav, 
 footer {
    text-align: center;
-   color: black;
-}
-
-ul {
-    color: black;
 }
