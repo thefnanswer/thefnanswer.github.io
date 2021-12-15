@@ -1,9 +1,10 @@
 #banner {
-        background: whitesmoke;
+        background: #94b6e3;
         color: black;
         font-weight: bold;
         font-family: Helvetica, Arial, sans-serif;
         font-size: 2em;
+        text-align: left;
 }
 body {
      background-color: whitesmoke;
