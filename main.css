@@ -9,6 +9,7 @@
 body {
      background-color: whitesmoke;
      font: antialiased;
+     color: black;
 }
 main {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
