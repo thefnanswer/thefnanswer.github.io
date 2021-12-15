@@ -1,5 +1,5 @@
 #banner {
-        background: silver;
+        background: whitesmoke;
         color: black;
         font-weight: bold;
         font-family: Helvetica, Arial, sans-serif;
@@ -15,7 +15,6 @@ main {
      text-indent: 1em;
      color: black;
 }
-header, 
 nav, 
 footer,
 li,
