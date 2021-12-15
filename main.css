@@ -1,9 +1,9 @@
 #banner {
         background: #94b6e3;
-        color: black;
+        color: #BBB6B6;
         font-weight: bold;
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 2em;
+        font-family: "Zombie Dust", Helvetica, Arial, sans-serif;
+        font-size: 1em;
         text-align: left;
 }
 body {
