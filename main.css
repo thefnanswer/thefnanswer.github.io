@@ -21,8 +21,11 @@ body {
 main {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-align: left;
-     text-indent: 1em;
      color: black;
+}
+
+main p {
+       text-indent: 1em;
 }
 
 nav, 
