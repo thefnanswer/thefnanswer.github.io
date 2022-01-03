@@ -8,17 +8,23 @@
         text-shadow: -5px 5px 15px #b81515;
 }
 
+main h1 {
+        text-shadow: -5px 5px 15px #b8a604;
+}
+
 body {
      background-color: whitesmoke;
      font: antialiased;
      color: black;
 }
+
 main {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-align: left;
      text-indent: 1em;
      color: black;
 }
+
 nav, 
 footer,
 li,
@@ -28,6 +34,7 @@ a {
   color: black;
   list-style: none;
 }
-nav {
-   text-shadow: 5px 5px 2px #918e8e;
+
+nav h2 {
+       text-shadow: 5px 5px 2px #918e8e;
 }
