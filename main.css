@@ -5,11 +5,15 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 1.5em;
         text-align: left;
-        text-shadow: -5px 5px 15px #b81515;
+        text-shadow: 0px 0px 5px #b81515;
 }
 
 main h1 {
-        text-shadow: -5px 5px 10px #a19211;
+        text-shadow: 0px 0px 5px #a19211;
+}
+
+main h2 {
+        text-shadow: 0px 0px 5px #1728c0;
 }
 
 body {
