@@ -65,3 +65,6 @@ nav h1 {
                           padding: 0.5em;
 }
 
+details summary {
+                list-style: none;
+}
