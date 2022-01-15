@@ -27,6 +27,7 @@ body {
      background-color: whitesmoke;
      font: antialiased;
      color: black;
+     padding: 1em;
 }
 
 main {
