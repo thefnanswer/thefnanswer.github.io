@@ -52,3 +52,10 @@ nav h1 {
                           height: 171px;
                           padding: 0.5em;
 }
+
+#banner h1 {
+           width: 815px;
+           height: 80px;
+           padding: 0.5em;
+           display: inline-block;
+}
