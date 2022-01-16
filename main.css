@@ -30,19 +30,17 @@ body {
      background-color: whitesmoke;
      font: antialiased;
      color: black;
-     padding: 1em;
 }
 
 main {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-align: left;
      color: black;
-     padding: 1em;
 }
 
 main p {
        text-indent: 1em;
-       padding: 1em;
+       padding: 0.5em;
 }
 
 nav, 
