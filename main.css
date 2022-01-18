@@ -9,7 +9,10 @@
         font-size: 2.5em;
         text-align: center;
         text-shadow: 0px 0px 5px #b81515;
-        box-shadow: 10px 10px 20px #5c5c45;
+        min-height: 3em;
+        max-width: 100%;
+        padding: 1em;
+        margin: 0 0 2em;
 }
 
 main h1 {
@@ -23,7 +26,8 @@ main h2 {
 body {
      background-color: whitesmoke;
      font: antialiased;
-     color: black;
+     margin: 0;
+     padding: 0;
 }
 
 main {
@@ -34,7 +38,8 @@ main {
 
 main p {
        text-indent: 1em;
-       padding: 0.5em;
+       padding: 10px;
+       margin: 10px;
 }
 
 nav, 
@@ -52,10 +57,11 @@ nav h1 {
 }
 
 main figure {
-                          align-items: left;
-                          width: 155px;
-                          height: 171px;
-                          padding: 0.5em;
+            float: left;
+            width: 155px;
+            height: 171px;
+            padding: 10px;
+            margin: 10px;
 }
 
 details summary {
@@ -63,11 +69,11 @@ details summary {
 }
 
 main {
-                      padding: 10px;
-                      margin: 10px;
-                      box-shadow: 10px 10px 20px #5c5c45;
-                      background: #4E4E4E;
-                      background: -moz-linear-gradient(-45deg, #4E4E4E 0%, #8A8A8A 50%, #AFAFAF 100%);
-                      background: -webkit-linear-gradient(-45deg, #4E4E4E 0%, #8A8A8A 50%, #AFAFAF 100%);
-                      background: linear-gradient(135deg, #4E4E4E 0%, #8A8A8A 50%, #AFAFAF 100%);
+     padding: 10px;
+     margin: 10px;
+     box-shadow: 10px 10px 20px #5c5c45;
+     background: #cecfab;
+     background: -moz-linear-gradient(top, #b0b192 0%, #cecfab 50%, #898B46 100%);
+     background: -webkit-linear-gradient(top, #b0b192 0%, #cecfab 50%, #898B46 100%);
+     background: linear-gradient(to bottom, #b0b192 0%, #cecfab 50%, #898B46 100%);
 }
