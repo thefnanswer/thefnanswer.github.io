@@ -1,5 +1,4 @@
 #banner {
-        color: #000000;
         font-weight: bold;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 2.5em;
@@ -33,7 +32,6 @@ body {
 main {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-align: left;
-     color: black;
      box-sizing: border-box;
      margin: 0 auto;
      padding: 0 1em;
@@ -43,13 +41,12 @@ main {
      background: -moz-linear-gradient(top, #b0b192 0%, #cecfab 50%, #898B46 100%);
      background: -webkit-linear-gradient(top, #b0b192 0%, #cecfab 50%, #898B46 100%);
      background: linear-gradient(to bottom, #b0b192 0%, #cecfab 50%, #898B46 100%);
-
 }
 
 p {
-       text-indent: 1em;
-       padding: 10px;
-       margin: 10px;;
+  text-indent: 1em;
+  padding: 10px;
+  margin: 10px;;
 }
 
 nav, 
@@ -58,8 +55,8 @@ li,
 a {
   text-align: center;
   text-decoration: none;
-  color: black;
   list-style: none;
+  color: #000000;
 }
 
 nav h1 {
@@ -75,7 +72,7 @@ nav h1 {
 }
 
 details summary {
-                list-style: none;
+                 list-style: none;
 }
 
 p,
@@ -87,3 +84,9 @@ main,
 #banner {
         box-shadow: 10px 10px 20px #5c5c45;
 }
+ 
+nav,
+main,
+#banner {
+        color: #000000;
+ }
