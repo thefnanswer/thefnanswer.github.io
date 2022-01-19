@@ -14,6 +14,9 @@
         padding: 1em;
         margin: 0 0 2em;
         box-shadow: 10px 10px 20px #5c5c45;
+        background-image: url(http://thefnanswer.github.io/images/Ms-I33-fol-04v.jpg);
+        background-position-y: -56px;
+        background-position-x: center;
 }
 
 main h1 {
@@ -25,10 +28,11 @@ main h2 {
 }
 
 body {
-     background-color: whitesmoke;
-     font: antialiased;
      margin: 0;
      padding: 0;
+     background-image: url(http://thefnanswer.github.io/images/Saber-with-Scabbard-and-Belt-Hook.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 main {
