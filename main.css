@@ -9,7 +9,6 @@
         max-width: 100%;
         padding: 1em;
         margin: 0 0 2em;
-        box-shadow: 10px 10px 20px #5c5c45;
         background-image: url(http://thefnanswer.github.io/images/Ms-I33-fol-04v.jpg);
         background-position-y: -56px;
         background-position-x: center;
@@ -40,7 +39,6 @@ main {
      padding: 0 1em;
      display: block;
      max-width: 1260px;
-     box-shadow: 10px 10px 20px #5c5c45;
      background: #cecfab;
      background: -moz-linear-gradient(top, #b0b192 0%, #cecfab 50%, #898B46 100%);
      background: -webkit-linear-gradient(top, #b0b192 0%, #cecfab 50%, #898B46 100%);
@@ -69,11 +67,11 @@ nav h1 {
 }
 
 #gladius {
-            float: left;
-            width: 155px;
-            height: 171px;
-            padding: 10px;
-            margin: 10px;
+         float: left;
+         width: 155px;
+         height: 171px;
+         padding: 10px;
+         margin: 10px;
 }
 
 details summary {
@@ -83,4 +81,9 @@ details summary {
 p,
 #menu {
       font-size: 20px;
+}
+
+main,
+#banner {
+        box-shadow: 10px 10px 20px #5c5c45;
 }
