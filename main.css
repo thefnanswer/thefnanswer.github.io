@@ -102,3 +102,17 @@ main,
       border-color: antiquewhite;
       border-radius: 30px;
 }
+
+main::before {
+             content: "Good Luck";
+             color: #b81515;
+             font-weight: bold;
+             font-size: 2em;
+}
+
+main::after {
+            content: "Have Fun";
+            color: #b81515;
+            font-weight: bold;
+            font-size: 2em;
+}
