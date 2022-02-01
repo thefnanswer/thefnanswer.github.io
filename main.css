@@ -98,4 +98,7 @@ main,
       max-width: 365px;
       padding: 10px;
       box-sizing: border-box;
+      border: solid;
+      border-color: antiquewhite;
+      border-radius: 30px;
 }
