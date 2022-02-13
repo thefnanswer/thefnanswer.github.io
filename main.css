@@ -116,3 +116,10 @@ main::after {
             font-weight: bold;
             font-size: 2em;
 }
+
+#menu ul,
+#menu h1 {
+         display: block;
+         padding: 5px;
+         margin: 5px;
+}
