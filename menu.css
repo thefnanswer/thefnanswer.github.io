@@ -12,10 +12,26 @@
 }
 
 #menu {
+      background: antiquewhite;
+      display: block;
+      margin: 50px auto 50px;
+      padding: 10px;
+      box-sizing: border-box;
+      border: solid;
+      border-color: antiquewhite;
       position: absolute;
-      top: 141px;
+      top: 161px;
       right: 50%;
       margin-right: -30em;
       margin-bottom: 1em;
-      display: inline;
+}
+
+#menu ul,
+#menu h1 {
+         padding: 5px;
+         margin: 5px;
+}
+
+#menu li {
+         width: 6em;
 }

@@ -1,13 +1,13 @@
 #menu {
-    background: antiquewhite;
-    display: block;
-    margin: 50px auto 50px;
-    max-width: 365px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: solid;
-    border-color: antiquewhite;
-    border-radius: 30px;
+      background: antiquewhite;
+      display: block;
+      margin: 50px auto 50px;
+      max-width: 365px;
+      padding: 10px;
+      box-sizing: border-box;
+      border: solid;
+      border-color: antiquewhite;
+      border-radius: 30px;
 }
 
 #menu ul,
