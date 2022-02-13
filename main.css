@@ -91,18 +91,6 @@ main,
         color: #000000;
 }
 
-#menu {
-      background: antiquewhite;
-      display: block;
-      margin: 50px auto 50px;
-      max-width: 365px;
-      padding: 10px;
-      box-sizing: border-box;
-      border: solid;
-      border-color: antiquewhite;
-      border-radius: 30px;
-}
-
 main::before {
              content: "Good Luck";
              color: #b81515;
@@ -115,11 +103,4 @@ main::after {
             color: #b81515;
             font-weight: bold;
             font-size: 2em;
-}
-
-#menu ul,
-#menu h1 {
-         display: block;
-         padding: 5px;
-         margin: 5px;
 }
