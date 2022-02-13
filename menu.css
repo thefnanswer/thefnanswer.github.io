@@ -1,13 +1,21 @@
-#menu ul,
-#menu h1 {
-         display: block;
-         padding: 5px;
-         margin: 5px;
-}
-
 .hidden {
         position: absolute;
         height: 1px;
         width: 1px;
         overflow: hidden;
+}
+
+#menu ul {
+         display: inline-flex;
+         border: 0;
+         background: transparent;
+}
+
+#menu {
+      position: absolute;
+      top: 141px;
+      right: 50%;
+      margin-right: -30em;
+      margin-bottom: 1em;
+      display: inline;
 }
