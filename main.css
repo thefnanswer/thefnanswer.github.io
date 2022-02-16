@@ -59,8 +59,8 @@ a {
   color: #000000;
 }
 
-nav h1 {
-       text-shadow: 5px 5px 2px #918e8e;
+#menu h1 {
+        text-shadow: 5px 5px 2px #918e8e;
 }
 
 #gladius {
@@ -110,3 +110,5 @@ main::after {
       font-size: 14pt;           
    }
 }
+
+
