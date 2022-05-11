@@ -112,7 +112,7 @@ main::after {
 }
 
 nav ul a {
-   transition-property: color rgb(175, 175, 175);
+   transition-property: color rgb(185, 14, 14);
    transition-duration: 2s;
    transition-timing-function: linear;
    transition-delay: .5s;
