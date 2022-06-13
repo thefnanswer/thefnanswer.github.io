@@ -1,62 +1,52 @@
-var $html = document.getElementsByTagName('html')[0],
-    $menu_opener = document.getElementById('nav-jump'),
-    $menu_closer = document.getElementById('menu-close');
+if ( ! 'classList' in document.body ) { return; }
 
-var $menu_opener
-        .addEventListener('click', toggleDrawerNav, false);
-    $menu_closer
-        .addEventListener('click', toggleDrawerNav, false);
+var $html = document.getElementsByTagName( 'html' )[0],
+    page_classes = $html.classList,
+    $menu_opener = document.getElementById( 'nav-jump' ),
+    $menu_closer = document.getElementById( 'menu-close' ),
+    drawer_enabled_class = 'drawer-nav-enabled',
+    drawer_open_class = 'drawer-nav-open';
 
-var class_names;
+var toggleDrawerNav_running = false;
+function toggleDrawerNav( event ) {
+    event.preventDefault();
 
-class_names = $html.className;
-class_names = $html.getAttribute('class');
+    if ( toggleDrawerNav_running ) { return; }
 
-class_names += 'my-new-class-name';
-// equivalent to
-// class_names = class_names = 'my-new-class-name'
+    toggleDrawerNav_running = true;
 
-// or
+    page_classes.toggle( drawer_open_class );
 
-class_names = class_names.split('');
-class_names.push('my-new-class-name');
-class_names = class_names.join('');
-
-class_names = class_names
-                .replace('my-new-class-name', '');
-
-// or 
-
-class_names = class_names
-                .replace(/\bmy-new-class-name\b/, '');
-
-function removeNewClassFromHTML() {
-  var class_names = class_names.split('');
-      len = class_names.length,
-      kept_classes = [];
-  while (len--) {
-      if (class_names[len] != 'my-new-class-name') {
-          kept_classes.push(class_names[len]);
-      }
-  }
-  class_names = kept_classes.join('');
+    setTimeout(function(){
+        toggleDrawerNav_running = false;
+    }, 500);
 }
 
-var removeNewClassFromHTML = function(){};
-var addNewClassToHTML = function(){};
+window.watchResize(function(){
 
-window.removeNewClassFromHTML; // function(){}
-window.addNewClassToHTML;      // function(){}
+    var current_MQ = window.getActiveMQ();
 
-function addClass(element, class_name) {
-  var class_names = element.className.split('');
-  class_names.push(class_name);
-  element.className = class_names.join('');
-}
+    if ( current_MQ == 'small' &&
+         ! page_classes.contains( drawer_enabled_class ) )
+    {
+        page_classes.add( drawer_enabled_class );
+        
+        $menu_opener.addEventListener( 'click', toggleDrawerNav, false );
+        $menu_opener.addEventListener( 'touchdown', toggleDrawerNav, false );
+        $menu_closer.addEventListener( 'click', toggleDrawerNav, false );
+        $menu_closer.addEventListener( 'touchdown', toggleDrawerNav, false );
+    }
+    else if ( current_MQ != 'small' &&
+              page_classes.contains( drawer_enabled_class ) )
+    {
+        page_classes.remove( drawer_enabled_class );
+        
+        $menu_opener.removeEventListener( 'click', toggleDrawerNav, false );
+        $menu_opener.removeEventListener( 'touchdown', toggleDrawerNav, false );
+        $menu_closer.removeEventListener( 'click', toggleDrawerNav, false );
+        $menu_closer.removeEventListener( 'touchdown', toggleDrawerNav, false );
+    }
 
-$html.classList; // a collection of class names
+});
 
-$html.classList.add('my-new-class-name');
-$html.classList.remove('my-new-class-name');
-$html.classList.toggle('my-new-class-name');
-$html.classList.contains('my-new-class-name');
+}(this));
